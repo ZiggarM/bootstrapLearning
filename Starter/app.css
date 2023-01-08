@@ -1,0 +1,19 @@
+body {
+    background-color: #f5d9d5;
+    font-family: "nunito", sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: red
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 400
+}
+
+.nav-link:hover {
+    color: red
+}
