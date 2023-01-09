@@ -3,6 +3,23 @@ body {
     font-family: "nunito", sans-serif;
 }
 
+.content {
+    margin-bottom: 100px;
+}
+
+h2 {
+    color: red;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+p {
+    line-height: 2rem;
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+}
+
 .navbar-brand {
     font-size: 1.5rem;
     color: red
@@ -16,4 +33,30 @@ body {
 
 .nav-link:hover {
     color: red
+}
+
+
+.display-3 {
+    color: white;
+    font-weight: 100;
+}
+
+#col1 span {
+    color: red;
+}
+
+#myNav {
+    transition: 0.5s ease;
+}
+
+#myNav.scroll {
+    background-color: purple;
+}
+
+
+
+@media (max-width: 1200px) {
+    .display-3 {
+        font-size: 3rem;
+    }
 }
